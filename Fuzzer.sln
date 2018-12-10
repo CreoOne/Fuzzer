@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuzzer", "Fuzzer\Fuzzer.csproj", "{F67F0795-2403-4A3A-ACBD-91622717FC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuzzer", "Fuzzer\Fuzzer.csproj", "{F67F0795-2403-4A3A-ACBD-91622717FC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzerTests", "FuzzerTests\FuzzerTests.csproj", "{A27A856A-372D-4DAA-9897-C6F38FCB2DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzerExp", "FuzzerExp\FuzzerExp.csproj", "{CDCBA494-B079-4622-ACE2-50EF0A36A097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F67F0795-2403-4A3A-ACBD-91622717FC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F67F0795-2403-4A3A-ACBD-91622717FC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F67F0795-2403-4A3A-ACBD-91622717FC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27A856A-372D-4DAA-9897-C6F38FCB2DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27A856A-372D-4DAA-9897-C6F38FCB2DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27A856A-372D-4DAA-9897-C6F38FCB2DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27A856A-372D-4DAA-9897-C6F38FCB2DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCBA494-B079-4622-ACE2-50EF0A36A097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCBA494-B079-4622-ACE2-50EF0A36A097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCBA494-B079-4622-ACE2-50EF0A36A097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCBA494-B079-4622-ACE2-50EF0A36A097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
