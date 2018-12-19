@@ -47,7 +47,7 @@ IEnumerable<object[]> results = new CasesGenerator<float, string, DateTime, Guid
 ## Fuzz providers
   - List of all currently available values used for fuzzing can be found in [Scenario.cs](./Fuzzer/Scenario.cs)
   - You can write Your own provider:
-    - by implementing `Fuzzer.Fuzzers.IFuzzer<>` like in [CustomFuzzer.cs](./FuzzerTests/CustomFuzzer.cs)
+    - by implementing `Fuzzer.Fuzzers.IFuzzer<>` like in [CustomFuzzer.cs](./FuzzerTests/CustomFuzzerFixture.cs)
     - by making incubator `Func<>` like in [IncubatorFuzzerFixture.cs](./FuzzerTests/IncubatorFuzzerFixture.cs)
     - by providing literal like:
       ```cs
