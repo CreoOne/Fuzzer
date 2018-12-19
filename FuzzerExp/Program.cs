@@ -1,5 +1,6 @@
 ﻿using Fuzzer;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
@@ -18,7 +19,7 @@ namespace FuzzerExp
                 .Except(default(DateTime))
                 .Except(default(Guid));
 
-            dynamic results = CasesGenerator.Create(scenario, typeof(float), typeof(string), typeof(DateTime), typeof(Guid)).ToArray();
+            IEnumerable<object[]> results = new CasesGenerator<float, string, DateTime, Guid>(scenario);
         }
     }
 }
